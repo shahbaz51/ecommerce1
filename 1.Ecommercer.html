@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-bay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="stick">
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo">
+            <h1>E-Bay</h1>
+        </div>
+        <div class="search-box">
+            <form action="">
+                <input type="text" placeholder="Search Products here" id="inputt">
+                <ul class="ull">
+
+                </ul>
+                <button class="srch-btn" type="submit"><i class="fa fa-search"></i></button>
+                <ul class="suggestions"></ul>
+            </form>
+        </div>
+        <ul>
+            <li class="list"><a href="#home">Home</a></li>
+            <li class="list"><a href="#products">Products</a></li>
+            <li class="list"><a href="#about-us">About Us</a></li>
+        </ul>
+        <div class="menu">
+            <label for="chk1"><i class="fa fa-bars"></i></label>
+        </div>
+    </header>
+    <main id="home">
+        <div class="slider">
+            <img src="bg-img-1.jpg" class="slide">
+            <img src="bg-img-2.jpg" class="slide">
+            <img src="bg-img-3.jpg" class="slide">
+            <img src="bg-img-4.jpg" class="slide">
+        </div>
+        <div class="pics">
+            <div class="pic">
+                <img src="img/free delivery.png">
+                <p>Fast Delivery</p>
+            </div>
+            <div class="pic">
+                <img src="img/beauty.png">
+                <p>Beauty</p>
+            </div>
+            <div class="pic">
+                <img src="img/fashion.png">
+                <p>Fashion</p>
+            </div>
+            <div class="pic">
+                <img src="img/flash.png">
+                <p>Flash Discount</p>
+            </div>
+            <div class="pic">
+                <img src="img/less.png">
+                <p>Discount</p>
+            </div>
+            <div class="pic sp">
+                <img src="img/new.png">
+                <p>New on <span>E-bay</span></p>
+            </div>
+            <div class="pic pic1">
+                <img src="img/mart.png">
+                <p>Mart</p>
+            </div>
+
+    </main>
+     <section id="products"> 
+         
+          <h2>Our Products</h2>
+          <div id="productModal" class="modal1">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalThumbnail" src="" alt="Product Image">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <h6 id="modalPrice"></h6>
+                <!-- Add more product details as needed -->
+            </div>
+        </div>
+        <!--  -->
+           <div class="filter">
+               <h3>YOu Searched This</h3>
+           </div>
+         <div class="container">
+            <div class="filtered-container"></div>
+             <!-- <div class="content">
+                <img src="img/fashion.png" >
+                <h3>Apple</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nulla amet temporibus</p>
+                <h6>$100.45</h6>
+                <ul>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                    <li><i class="fa fa-star checked"></i></li>
+                </ul>
+                <button class="buy">Buy Now</button>
+             </div> -->
+         </div>
+         <button class="loadMoreBtn">Load More</button>
+     </section>
+       <footer id="about-us">
+        <div class="foot-con">
+            <div class="ebay">
+                <h2>E-Bay</h2>
+                <p><span> E-bay</span> is the leading online marketplace in South Asia, empowering tens of thousands of sellers to connect with millions of customers. E-bay provides immediate and easy access to 10 million products in more than 100+ categories and delivers more than 2 million packages every month to all corners of its countries. <span>E-bay</span> is a mall, a <span>marketplace</span> and a community for its customers. It is also a university for entrepreneurs, and every month it educates more than 5,000 new sellers on e-commerce operations.</p>
+            </div>
+            <div class="online">
+                <h3>How E-bay Transformed Online Shopping in Pakistan</h3>
+                <p>E-bay first made waves in Pakistan’s e-commerce market after its introduction in 2012. We have since grown to become Pakistan’s largest platform for online shopping with a network spread across Asia in Pakistan, Bangladesh, Sri Lanka, Myanmar, and Apex.com.np. Our vision was to provide a safe. We started off exclusively as an online fashion retail platform and over the years expanded to become a complete one-stop solution.</p>
+            </div>
+            <div class="inter">
+                <h3>E-bay International</h3>
+                <ul class="flags">
+                    <li><img src="pakistan.jpg" alt="Pakistan Flag"><span>Pakistan</span></li>
+                    <li><img src="afg.jpg" alt="Afghanistan Flag"><span>Afghanistan</span></li>
+                    <li><img src="banladash.jpg" alt="Bangladesh Flag"><span>Bangladesh</span></li>
+                    <li><img src="srilanka.png" alt="Sri Lanka Flag"><span>Sri Lanka</span></li>
+                </ul>
+                <div class="social">
+                    <h3>Follow us on</h3>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
